@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/mainAct">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+    <Button
+        android:id="@+id/btnAll"
+        android:onClick="allUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Просмотреть все записи"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/text"
+        android:fontFamily="@font/playfair_display_bold"
+        android:background="@drawable/btn_sign_in">
+    </Button>
+    <Button
+    android:id="@+id/btnAdd"
+        android:onClick="addUser"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Добавить жильца"
+    android:layout_marginTop="10dp"
+    android:textColor="@color/text"
+    android:fontFamily="@font/playfair_display_bold"
+    android:background="@drawable/btn_sign_in">
+</Button>
+    <Button
+        android:id="@+id/btnUpdate"
+        android:onClick="update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Изменить данные жильца"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text"
+        android:fontFamily="@font/playfair_display_bold"
+        android:background="@drawable/btn_sign_in">
+    </Button>
+    <Button
+        android:id="@+id/btnDelete"
+        android:onClick="deleteUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Удалить жильца"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text"
+        android:fontFamily="@font/playfair_display_bold"
+        android:background="@drawable/btn_sign_in">
+    </Button>
+    <Button
+        android:id="@+id/btnAllDelete"
+        android:onClick="deleteAllUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Удалить все записи"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text"
+        android:fontFamily="@font/playfair_display_bold"
+        android:background="@drawable/btn_sign_in">
+    </Button>
+
+        <Button
+            android:id="@+id/btnSort1"
+            android:onClick="setBtnSort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Сортировка"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/text"
+            android:fontFamily="@font/playfair_display_bold"
+            android:background="@drawable/btn_sign_in">
+        </Button>
+
+
+</LinearLayout>
+</LinearLayout>

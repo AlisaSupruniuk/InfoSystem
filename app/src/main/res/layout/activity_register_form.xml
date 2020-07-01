@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    app:cardElevation="10dp"
+    android:layout_width="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Введите данные о жильце"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text"
+        android:fontFamily="@font/playfair_display"/>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/surnameField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Фамилия"
+        android:inputType="text"
+        android:text=""
+        android:textColor="@color/text"
+        android:textColorHint="@color/btnSignInStroke"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/playfair_display"
+
+        app:met_baseColor="@color/baseColor"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/primaryColor"
+        app:met_singleLineEllipsis="true" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/nameField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя"
+        android:inputType="text"
+        android:text=""
+        android:textColor="@color/text"
+        android:textColorHint="@color/btnSignInStroke"
+        android:textSize="18sp"
+        android:fontFamily="@font/playfair_display"
+
+        app:met_baseColor="@color/baseColor"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/primaryColor"
+        app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/genderField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Пол (муж/жен)"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/text"
+            android:textColorHint="@color/btnSignInStroke"
+            android:textSize="18sp"
+            android:fontFamily="@font/playfair_display"
+
+            app:met_baseColor="@color/baseColor"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/primaryColor"
+            app:met_singleLineEllipsis="true" />
+
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/yearField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Год рождения"
+        android:inputType="date"
+        android:text=""
+        android:textColor="@color/text"
+        android:textColorHint="@color/btnSignInStroke"
+        android:textSize="18sp"
+        android:fontFamily="@font/playfair_display"
+
+        app:met_baseColor="@color/baseColor"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/primaryColor"
+        app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/apartmentField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playfair_display"
+            android:hint="Квартира"
+            android:inputType="number"
+            android:text=""
+            android:textColor="@color/text"
+            android:textColorHint="@color/btnSignInStroke"
+            android:textSize="18sp"
+
+            app:met_baseColor="@color/baseColor"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/primaryColor"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/phoneField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playfair_display"
+            android:hint="Номер телефона"
+            android:inputType="phone"
+            android:text=""
+            android:textColor="@color/text"
+            android:textColorHint="@color/btnSignInStroke"
+            android:textSize="18sp"
+
+            app:met_baseColor="@color/baseColor"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/primaryColor"
+            app:met_singleLineEllipsis="true" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/emailField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playfair_display"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:textColor="@color/text"
+            android:textColorHint="@color/btnSignInStroke"
+            android:textSize="18sp"
+
+            app:met_baseColor="@color/baseColor"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/primaryColor"
+            app:met_singleLineEllipsis="true" />
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="30dp">
+        <Button
+            android:id="@+id/btnCancel"
+            android:onClick="cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:text="Назад"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/text"
+            android:fontFamily="@font/playfair_display_bold"
+            android:background="@drawable/btn_sign_in"/>
+        <Button
+            android:id="@+id/btnResume"
+            android:onClick="createUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:text="Продолжить"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/text"
+            android:fontFamily="@font/playfair_display_bold"
+            android:background="@drawable/btn_sign_in"/>
+
+    </LinearLayout>
+
+        </LinearLayout>
+</ScrollView>
+</androidx.cardview.widget.CardView>

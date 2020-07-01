@@ -1,0 +1,4 @@
+rootProject.name='InfoSystem'
+include ':app'
+include ':informationsystem'
+include ':app', ':robolectric-tests'

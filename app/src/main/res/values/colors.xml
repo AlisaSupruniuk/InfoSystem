@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="mainAct">#EDEDB8</color>
+    <color name="text">#55554B</color>
+    <color name="rippleEffect">#DCDC3D</color>
+    <color name="btnSignIn">#D8D88C</color>
+    <color name="btnSignInStroke">#5A5A45</color>
+    <color name="primaryColor">#C4CC6C8C</color>
+    <color name="baseColor">#C48E4960</color>
+
+    <color name="backgroundForRegisterForm">#C3C39B</color>
+    <color name="backgroundForAdminForm">#DFDFC5</color>
+</resources>
